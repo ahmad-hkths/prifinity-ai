@@ -3,8 +3,7 @@ import { Send, Bot, User, Sparkles } from 'lucide-react';
 import { sendMessage } from './api/openrouter';
 import { getQlooRecommendations } from './api/qloo';
 import { Analytics } from "@vercel/analytics/react";
-
-export default function App() {
+export{
   return (
     <div>
       {/* ... */}
@@ -12,6 +11,7 @@ export default function App() {
     </div>
   );
 }
+
 
 interface Message {
   id: string;
@@ -251,3 +251,4 @@ function App() {
 }
 
 export default App;
+
