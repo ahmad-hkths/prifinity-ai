@@ -25,12 +25,7 @@ const categories = [
 ];
 
 function App() {
-    return (
-    <div>
-      {/* ... */}
-      <Analytics />
-    </div>
-  );
+   
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
@@ -115,6 +110,12 @@ function App() {
   };
 
   return (
+     
+    <div>
+      {/* ... */}
+      <Analytics />
+    </div>
+
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-indigo-900">
       <div className="container mx-auto px-4 py-6 max-w-4xl">
         {/* Header */}
