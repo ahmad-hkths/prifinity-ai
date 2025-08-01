@@ -8,7 +8,7 @@ PrifinityAI is a smart recommendation assistant that delivers deeply personalize
 ## 🚀 Live Demo
 
 👉 [Try PrifinityAI Live](prifinityai.vercel.app)
-👍Best viewed on desktop
+  👍Best viewed on desktop
 
 ---
 
