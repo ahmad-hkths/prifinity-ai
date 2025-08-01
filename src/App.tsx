@@ -111,10 +111,9 @@ function App() {
 
   return (
      
-    <div>
-      {/* ... */}
-      <Analytics />
-    </div>
+    
+      
+   
 
     <div className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-indigo-900">
       <div className="container mx-auto px-4 py-6 max-w-4xl">
@@ -245,6 +244,7 @@ function App() {
         <div className="text-center mt-6 text-gray-400 text-sm">
           <p>Powered by Qloo Taste API & OpenAI GPT-3.5-turbo </p>
         </div>
+        <Analytics />
       </div>
     </div>
   );
