@@ -3,14 +3,6 @@ import { Send, Bot, User, Sparkles } from 'lucide-react';
 import { sendMessage } from './api/openrouter';
 import { getQlooRecommendations } from './api/qloo';
 import { Analytics } from "@vercel/analytics/react";
-function App() {
-  return (
-    <div>
-      <h1>My App</h1>
-      <Analytics /> {/*  */}
-    </div>
-  );
-}
 
 
 
@@ -33,6 +25,12 @@ const categories = [
 ];
 
 function App() {
+    return (
+    <div>
+      {/* ... */}
+      <Analytics />
+    </div>
+  );
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
