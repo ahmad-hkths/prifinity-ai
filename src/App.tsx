@@ -4,6 +4,15 @@ import { sendMessage } from './api/openrouter';
 import { getQlooRecommendations } from './api/qloo';
 import { Analytics } from "@vercel/analytics/react";
 
+export default function App() {
+  return (
+    <div>
+      {/* ... */}
+      <Analytics />
+    </div>
+  );
+}
+
 interface Message {
   id: string;
   text: string;
