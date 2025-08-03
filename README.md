@@ -11,7 +11,14 @@ PrifinityAI is a smart recommendation assistant that delivers deeply personalize
 👍Best viewed on desktop
 
 ---
+## ⏰ Submission Info
 
+This project was submitted on **August 1, 2025**.
+
+- All core functionality and features were completed by the submission deadline.
+- **Post-deadline updates** (committed after Aug 1) include:
+   *  Added basic analytics for usage statistics only (e.g., page visits, general interaction metrics). These have **no impact on app features or functionality**.
+  
 ## 📜 Features
 
 * 🎬 Movie & TV show recommendations
