@@ -18,6 +18,7 @@ This project was submitted on **August 1, 2025**.
 - All core functionality and features were completed by the submission deadline.
 - **Post-deadline updates** (committed after Aug 1) include:
    *  Added basic analytics for usage statistics only (e.g., page visits, general interaction metrics). These have **no impact on app features or functionality**.
+   *  Updated tech stack section in readme for clarity 
   
 ## 📜 Features
 
@@ -31,13 +32,20 @@ This project was submitted on **August 1, 2025**.
 
 ## ⚙️ Tech Stack
 
-* **Frontend**: React + TypeScript + Vite 
-* **Backend/API layer**: Node.js functions or client-side fetch
-* **APIs**:
+### 🖥️ Frontend (React + TypeScript)
 
-  * Qloo Hackathon API (`https://hackathon.api.qloo.com`)
-  * OpenRouter GPT models (`https://openrouter.ai`)
-* **Deployment**: Vercel (Free Tier)
+* Built using Vite, React, and TypeScript
+* Styled with Tailwind CSS
+* User input is sent to backend APIs for processing
+
+### 🔧 Backend (API)
+
+* Uses the Qloo Taste API to fetch cultural and taste-based recommendations
+* Integrates GPT-3.5 Turbo via OpenRouter for natural language understanding
+
+### ☁️ Deployment
+
+* Deployed on Vercel
 
 ---
 
